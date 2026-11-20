@@ -13,7 +13,15 @@ End-to-end Business Intelligence pipeline analyzing Walmart retail store and dep
 - **`walmart_fact_table` (SCD Type 2):** Fact table storing weekly sales, fuel price, temperature, unemployment, CPI, and markdowns (`Markdown1`–`Markdown5`) with `vrsn_start_date` and `vrsn_end_date` version tracking.
 
 ## Visual Reports (`walmart_analysis_reports.py`)
-1. Weekly Sales Trend Over Time
-2. Total Weekly Sales by Store Type (`A`, `B`, `C`)
-3. Top 10 Stores by Weekly Sales
-4. Correlation Heatmap (Sales vs. Store Size, Temperature, Fuel Price, CPI, Unemployment, and Markdowns)
+
+### 1. Weekly Sales Trend Over Time
+![Weekly Sales Trend Over Time](charts/weekly_sales_trend.png)
+
+### 2. Total Weekly Sales by Store Type (A, B, C)
+![Total Weekly Sales by Store Type](charts/sales_by_store_type.png)
+
+### 3. Top 10 Stores by Weekly Sales
+![Top 10 Stores by Weekly Sales](charts/top_10_stores.png)
+
+### 4. Correlation Heatmap
+![Correlation Heatmap](charts/correlation_heatmap.png)
